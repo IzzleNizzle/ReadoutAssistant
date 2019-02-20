@@ -1,0 +1,40 @@
+nav {
+  /* margin-top: 15px; */
+  margin-bottom: 25px;
+}  
+table {
+  border-collapse: collapse;
+  border: 1.5px black solid;
+  font: 12px sans-serif;
+}
+
+td {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+img {
+  max-width: 35px;
+}
+
+span {
+  margin: 5px;
+}
+
+td img {
+  margin: 5px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.card {
+  margin-bottom: 25px;
+}
