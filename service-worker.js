@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/readoutassistant/precache-manifest.e111fedcf563806e25ffe1fcd9ef606f.js"
+  "/ReadoutAssistant/precache-manifest.56933ee9169a23538ec4aee1d393468b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/readoutassistant/index.html", {
+workbox.routing.registerNavigationRoute("/ReadoutAssistant/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
